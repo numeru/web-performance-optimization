@@ -124,9 +124,7 @@ npx cra-bundle-analyzer
 - react-syntax-highlighter의 refractor가 chunk.js의 큰 부분을 차지하고 있다.
 - 당장 필요한 모듈만 다운로드 받을 수 있도록 나눈다.
 
-2. Code Splitting
-
-[관련 docs](https://ko.reactjs.org/docs/code-splitting.html)
+2. Code Splitting[(관련 docs)](https://ko.reactjs.org/docs/code-splitting.html)
 
 - bundle에는 여러 페이지와 모듈들이 들어 있는데, 이를 일정 단위로 분할한다.
 - 불필요한 코드 또는 중복되는 코드가 없이 적절한 사이즈의 코드가 적절한 타이밍에 로드될 수 있도록 한다.
