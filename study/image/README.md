@@ -142,10 +142,10 @@
 
 ```html
 <picture>
-  <souece media="(min-width: 45em)" srcset="large.jpg, large-hd.jpg 2x">
-  <souece media="(min-width: 18em)" srcset="med.jpg, med-hd.jpg 2x">
-  <souece srcset="small.jpg, small-hd.jpg 2x">
-  <img src="small-1.jpg" alt="rwd">
+  <source media="(min-width: 45em)" srcset="large.jpg, large-hd.jpg 2x" />
+  <source media="(min-width: 18em)" srcset="med.jpg, med-hd.jpg 2x" />
+  <source srcset="small.jpg, small-hd.jpg 2x" />
+  <img src="small-1.jpg" alt="rwd" />
 </picture>
 ```
 
